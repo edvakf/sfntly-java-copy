@@ -10,6 +10,12 @@
   <name>A copy of sfntly (https://github.com/googlei18n/sfntly) to be used through jitpack.io</name>
   <url>https://jitpack.io/#edvakf/sfntly-java-copy/0.1</url>
 
+  <sourceDirectory>${basedir}/src</sourceDirectory>
+  <testSourceDirectory>${basedir}/test</testSourceDirectory>
+  <outputDirectory>${basedir}/target/classes</outputDirectory>
+  <testOutputDirectory>${basedir}/target/test-classes</testOutputDirectory>
+  <directory>${basedir}/target</directory>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
